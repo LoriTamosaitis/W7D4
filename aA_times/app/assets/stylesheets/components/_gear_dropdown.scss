@@ -1,1 +1,24 @@
 // Use the gear_dropdown.png screenshot as a style guide
+.gear-dropdown{
+    display: none;
+    top: 42px;
+    right: 35px;
+    font-size: 20px;
+    font-family: $serif;
+    background-color: lightgray;
+    box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+}
+
+
+
+#cog-modal-btn{
+    position: relative;
+}
+#cog-modal-btn:hover{
+
+    .gear-dropdown{
+        display: block;
+        position: absolute;
+        z-index: -1;
+    }
+}

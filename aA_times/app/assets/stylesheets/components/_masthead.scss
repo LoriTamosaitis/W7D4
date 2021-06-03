@@ -4,7 +4,6 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
-	
 }
 
 .language-nav {
@@ -26,9 +25,20 @@
 		color: $dark-gray;
 	}
 
+    a:hover{
+        text-decoration: underline;
+    }
+
+
 	ul {
 		display: flex;
 	}
+
+    li:first-child{
+        font-weight: bolder;
+
+    }
+
 }
 
 .logo {
@@ -45,8 +55,19 @@
 
 	li {
 		margin-left: 10px;
-		border-right: 1px solid $light-gray;
+        padding-right: 10px;
+        border-right-width: 1px;
+        border-right-color: gray;
+        border-right-style: solid;
 	}
+
+    li:nth-last-child(-n+2):hover {
+        background-color: $light-gray;
+    }
+
+    a{
+        text-decoration: underline;
+    }
 
 	button {
 		background: none;
@@ -63,7 +84,7 @@
 	a,
 	button, 
 	time {
-		margin-right: 10px;
+		margin-right: 5px;
 	}
 
 	i {
