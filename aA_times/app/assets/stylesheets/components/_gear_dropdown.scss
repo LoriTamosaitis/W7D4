@@ -2,10 +2,11 @@
 .gear-dropdown{
     display: none;
     top: 42px;
-    right: 35px;
+    right: 0;
     font-size: 20px;
     font-family: $serif;
-    background-color: lightgray;
+    background-color:white;
+	border: 1px solid $light-gray;
     box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
 }
 
