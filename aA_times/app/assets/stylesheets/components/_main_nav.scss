@@ -1,17 +1,24 @@
 .main-nav {
+  display: flex; 
+  justify-content: space-between ;
+  padding-top: 10px;
 
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav {
 
   > ul {
     > li {
-
+      margin-right: 8px;
+      font-family: $serif;
+      font-size: 15px;
+      text-transform: full-width;
     }
   }
 
@@ -21,7 +28,7 @@
 }
 
 .right-nav  {
-
+  display: inline-block;
   > ul {
 
     > li {
@@ -34,11 +41,12 @@
   }
   
   i {
-
+    font-size: 25px;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
+  background-color: $light-gray;
 
 }

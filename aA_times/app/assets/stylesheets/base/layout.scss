@@ -14,23 +14,27 @@ body {
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: #6989A3;
+	// border-color: black;
+	color: white; 
+	font-weight: 15%;
+	padding: 5px;
+	border: 20%;
+	border-radius: 5px; 
+	// transition: 
+	margin: 10px; 
+	font-family: $serif; 
+	// text-transform: 
+	font-size: 12px; 
+	text-align: center; 
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: #3C698E;
+	border-color: darkblue;
 }
+	
+
 
 /*
 	Header Rules
